@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <el-button>test</el-button>
+    <issue-form></issue-form>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import IssueForm from './components/IssueForm.vue'
 
 @Component({
+  components: {
+    IssueForm
+  }
 })
 export default class App extends Vue {}
 </script>
