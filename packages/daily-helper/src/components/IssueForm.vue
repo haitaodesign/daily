@@ -7,8 +7,6 @@
       <el-form-item label="文章名称">
         <el-input
           v-model="params.title"
-          type="textarea"
-          autosize
         >
         </el-input>
       </el-form-item>
