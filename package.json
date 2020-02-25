@@ -1,0 +1,24 @@
+{
+  "name": "daily",
+  "version": "1.0.0",
+  "description": "日常阅读记录，始于前端领域，但不仅限于前端领域",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "./deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haitaodesign/daily.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haitaodesign/daily/issues"
+  },
+  "homepage": "https://github.com/haitaodesign/daily#readme"
+}
