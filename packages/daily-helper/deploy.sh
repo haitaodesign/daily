@@ -1,4 +1,4 @@
 cp -r docs ../../
-git add *
+git add -A
 git commit -m 'deploy'
 git push
